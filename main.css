@@ -1,9 +1,19 @@
+*{
+    font-family: 'Koulen' , sans-serif;
+    background-color: rgb(39, 111, 191);
+    user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
 .container{
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+    box-shadow: 0px 0px 43px 17px rgba(0, 0, 0, 0.2);
 }
 #display{
+    background-color: white;
     overflow: scroll;   
     text-align: right;
     height: 70px;
@@ -17,9 +27,11 @@
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
 }
 .buttons > div{
     border: 1px solid #999;
+    background-color: white;
 }
 .button{
     border: 0.5px solid #999;
