@@ -2,9 +2,7 @@
     font-family: 'Koulen' , sans-serif;
     background-color: rgb(39, 111, 191);
     user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    -ms-user-select: none;
+    -moz-scrollbar:none;
     -webkit-user-select: none;
 }
 .container{
@@ -22,6 +20,9 @@
     font-size: 25px;
 }
 #display::-webkit-scrollbar {
+    display: none;
+}
+#display::b{
     display: none;
 }
 .buttons{
