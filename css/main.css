@@ -31,7 +31,7 @@ body{
     height: 60px;
     color: white;
     text-align: right;
-    direction: rtl;
+    direction: ltr;
     width: 100%;
     font-size: 25px;
     scrollbar-width: none;
