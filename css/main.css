@@ -58,9 +58,6 @@ body{
     animation: dropshadow 2s ease-in-out  infinite ;
     animation-delay: calc(var(--order) * 200ms) ;
 }
-.zero{
-    grid-column: 1/4;
-}
 .equal{
     background-color: #F87060 !important;
 }
