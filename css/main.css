@@ -55,7 +55,7 @@ body{
     background-color: transparent;
     border-radius: 15px;
     -webkit-border-radius: 15px;
-    animation: dropshadow 2s ease-in-out  infinite ;
+    animation: dropshadow 4s ease-in-out  infinite ;
     animation-delay: calc(var(--order) * 200ms) ;
 }
 .equal{
